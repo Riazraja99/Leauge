@@ -1,0 +1,560 @@
+body {
+  background-color: #e8f5e9; /* You can replace with any of the hex codes above */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #598059;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  margin-top: 1rem;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: center;
+}
+.teams-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.team-card {
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensures all logos are equal size and centered */
+.img-wrapper {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 0.5rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+
+.img-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+}
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+.site-logo {
+  width: 100px;  /* adjust as needed */
+  height: auto;
+}
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+.site-logo {
+  width: 100px;   /* You can adjust this */
+  height: auto;
+}
+header {
+  background: #598059;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centers the text horizontally */
+  gap: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.site-logo {
+  width: 80px; /* or 100px for more impact */
+  height: auto;
+  position: absolute;
+  left: 1rem;
+  top: 100%;
+  transform: translateY(-50%);
+}
+
+.site-title {
+  font-size: 1.8rem;
+  margin: 0;
+}
+.player-list {
+  list-style-type: none;
+  padding-left: 0;
+  max-width: 400px;
+  margin: 2rem auto;
+  font-size: 1.1rem;
+}
+
+.player-list li {
+  padding: 0.5rem;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+}
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  margin: 1rem 2rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.back-icon {
+  width: 20px;
+  height: auto;
+  margin-right: 0.5rem;
+}
+.news-images {
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.news-images h3 {
+  margin-bottom: 1rem;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.image-gallery img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.05);
+}
+.ground-location {
+  padding: 2rem;
+  text-align: center;
+}
+
+.location-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.ground-image {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.location-details {
+  max-width: 300px;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.location-details a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.location-details a:hover {
+  text-decoration: underline;
+}
+.contact-form {
+  background-color: #fff;
+  padding: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.contact-form h2 {
+  margin-bottom: 1rem;
+}
+
+.contact-form form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.contact-form button {
+  background-color: #222;
+  color: white;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #444;
+}
+.management-section {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.management-section h2 {
+  margin-bottom: 1rem;
+}
+
+.management-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.management-photo {
+  width: 500px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.management-info {
+  max-width: 650px;
+  text-align: left;
+  font-size: 1rem;
+}
+.fixtures-table {
+  width: 90%;
+  max-width: 800px;
+  margin: 2rem auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.fixtures-table th,
+.fixtures-table td {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.fixtures-table th {
+  background-color: #222;
+  color: white;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  position: relative;
+}
+
+.site-logo {
+  width: 80px;
+  height: auto;
+}
+
+.site-title {
+  font-size: 1.8rem;
+  text-align: center;
+  flex: 1;
+}
+
+.top-right-logo {
+  width: 105px;  /* Adjust size as needed */
+  height: auto;
+  align-self: flex-end;
+margin-top: 17px;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #222;
+  padding: 0.75rem 0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #444;
+}
+
+/* Optional: Add active link highlight */
+.nav-links a.active {
+  background-color: #007bff;
+}
+.navbar {
+  background: linear-gradient(to right, #004e92, #000428);
+  padding: 0.75rem 0;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.team-heading {
+  text-align: center;
+  margin: 2rem 0 1rem;
+  font-size: 2rem;
+  color: #222;
+}
+
+.player-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.player-card {
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.player-card:hover {
+  transform: scale(1.03);
+}
+
+.player-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.player-card p {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #333;
+}
+
+.back-link {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.back-link a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-link img {
+  width: 16px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+.ladder-table-wrapper {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.ladder-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+}
+
+.ladder-table thead {
+  background: #004e92;
+  color: #fff;
+}
+
+.ladder-table th,
+.ladder-table td {
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.ladder-table tr:hover {
+  background-color: #f8f8f8;
+  transition: background-color 0.3s ease;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem 0 1rem;
+  color: #222;
+}
+/* Highlight top team row */
+.top-team {
+  background-color: #fff9e6;
+  font-weight: bold;
+  box-shadow: inset 0 0 10px rgba(255, 215, 0, 0.3);
+}
+
+.top-team td {
+  color: #b8860b;
+}
+/* Highlight last team row */
+.last-team {
+  background-color: #ffe6e6; /* light red/pink tint */
+  font-style: italic;
+  color: #a94442; /* dark red */
+}
+
+.last-team td {
+  border-bottom: 2px solid #a94442;
+}
+.live-scores {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background: #f5faff;
+  border-left: 5px solid #004e92;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.live-scores h2 {
+  text-align: center;
+  color: #004e92;
+  margin-bottom: 1rem;
+}
+
+.scoreboard {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.match {
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.match:hover {
+  transform: scale(1.02);
+}
+
+.team {
+  font-weight: bold;
+  margin: 0 0.5rem;
+}
+
+.score {
+  font-size: 1.5rem;
+  color: #004e92;
+  margin: 0 0.25rem;
+}
